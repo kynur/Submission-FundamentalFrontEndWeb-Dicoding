@@ -1,0 +1,57 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  
+body {
+  font-family: sans-serif;
+}
+  
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: white;
+}
+  
+jumbo-tron {
+  display: block;
+  height: 170px;
+  width: 100%;
+  background-color: #0d1117;
+  color: white;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+anime-list {
+  display: flex;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: ease-in 0.1s;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.bi-star-fill {
+  color: #ff9529;
+}
